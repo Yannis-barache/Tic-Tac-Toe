@@ -1,10 +1,11 @@
-# Getting Started with Create React App
+# React Tic Tac Toe
+Ce projet a été initialisé avec [Create React App](https://github.com/facebook/create-react-app).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
+## Description
+Ce projet est un jeu de morpion (Tic Tac Toe) en React. Il a été réalisé en suivant le tutoriel de la documentation officielle de React. Le but de ce projet est de se familiariser avec React et de comprendre les concepts de base de React.
+J'ai suivi le tutoriel de la documentation officielle de React pour réaliser ce projet. 
+Le tutoriel est disponible à l'adresse suivante : [Tutoriel React](https://react.dev/learn/tutorial-tic-tac-toe)
+## Pour lancer le projet
 
 ### `npm start`
 
