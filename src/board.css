@@ -1,0 +1,64 @@
+.board{
+    height: 60vh;
+    width: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.status {
+    margin-bottom: 10px;
+    font-size: 6vh; /* Adjust font size relative to viewport height */
+    font-weight: bold;
+}
+
+.board-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.square {
+    background: #fff;
+    border: 1px solid #999;
+    font-size: 2vh; /* Adjust font size relative to viewport height */
+    font-weight: bold;
+    line-height: 6vh; /* Adjust line height relative to viewport height */
+    height: 6vh; /* Adjust square height relative to viewport height */
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 6vh; /* Adjust square width relative to viewport height */
+    color: black;
+}
+
+.square:focus {
+    outline: none;
+}
+
+.board-row:last-of-type .square{
+    margin-bottom: 10%
+}
+
+
+.reset{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.reset:active{
+    background-color: red;
+}
